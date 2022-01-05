@@ -3,30 +3,33 @@ Melon Tasting Reservation App
 
 Melon Tasting Reservation Scheduler
 							
-Summary:
+Project Summary:
 
 Melon Tasting is a web application that allows users to create and account and make reservations at Melon Tasting. 
-We want to build a simple service to help users make reservations to go to a fancy melon tasting! 
 
 Melon Tasting offers coverage 24/7/365 (including weekends and holidays) but due to the current CDC guidlines and regulations at this time only 1 user can book an appointment on a given day and time. 			
 
-Assignment						
-Your task is to build a web application that users can use to search for and book reservations.
-A user should be able to “log in” (by entering their username), pick a date, choose an optional time range, and then be shown all the available reservations that meet the criteria.
-They can then book an appointment of their choice. If there are no reservations available, you should display a message indicating that.
-There should also be a page which shows all reservations for a given user.	
-The service has these requirements:
-all reservations must start and end on the hour or half hour
-all reservations are exactly 30 minutes long
-a user can only have 1 reservation on a calendar date (#tooMuchMelon)
-If these conditions cannot be met (for example the user has already booked an appointment on the chosen date), show an error message indicating that.
+Features:
 
-Your application frontend should have the following pages:
-Simple login screen (no authentication needed; more on this in the details section)
-Page to search for appointments (see following page for an example of this)
-Results page to view the results of the appointment search (allowing users to book any of those appointments and showing them an error if none are found)
-Page to view all the scheduled appointments for the current user (you can optionally build cancelling or even editing of appointments but this is not required)
-Sample appointment search page (yours can be designed as you see fit and the input fields can be regular HTML 5 date and time input elements if you would like - You do not need to build a calendar or time input yourself!)
+- Users can create an account using their email address, username and unique password. 
+- Registered users once logged in can reserve a date and time they would like to Melon Taste. 
+- If the preffered date and time are already booked the user will be prompted to select a new date and time to reserve. 
+- Users also have the ability to view all of their past and pending reservations.
+
+Technologies and Stack
+
+Backend - Python, Flask, Jinja, SQLAlchemy, PostgreSQL and Faker
+Frontend - HTML and CSS
+
+Set-Up and Install
+
+1) Install VS code
+2) Install Python3
+3) Install pip3 requirements.txt 
+4) Install postgresSQL
+
+Clone GitHub Repository 
+
 
 
 						
