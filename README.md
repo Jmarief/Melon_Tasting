@@ -4,8 +4,12 @@ Melon Tasting Reservation App
 Melon Tasting Reservation Scheduler
 							
 Summary:
+
+Melon Tasting is a web application that allows users to create and account and make reservations at Melon Tasting. 
 We want to build a simple service to help users make reservations to go to a fancy melon tasting! 
-We offer coverage 24/7/365 (including weekends and holidays) but only 1 user can book an appointment on a given day and time. 			
+
+Melon Tasting offers coverage 24/7/365 (including weekends and holidays) but due to the current CDC guidlines and regulations at this time only 1 user can book an appointment on a given day and time. 			
+
 Assignment						
 Your task is to build a web application that users can use to search for and book reservations.
 A user should be able to “log in” (by entering their username), pick a date, choose an optional time range, and then be shown all the available reservations that meet the criteria.
