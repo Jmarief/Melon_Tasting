@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
-{% block title %}Melon Tasting Homepage{% endblock %}
+{% block title %}Melon Tasting - Home{% endblock %}
 
 {% block body %}
     <div class="container">
         <div class="row">
             <h1 class="text-center">Melon Tasting Reservations</h1>
         </div>
-
+            <p> Reserve your next Melon Tasting experience today</p>
         {% if (session.__contains__('user_id') == false) %}
-            <div class="auth d-flex justify-content-center h-100">
+            <div class="auth d-flex justify-content-center mt-5">
                 <div class="login card">
                     <div class="card-header">
                         <h3>Sign In</h3>

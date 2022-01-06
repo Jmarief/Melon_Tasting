@@ -7,13 +7,13 @@ Project Summary:
 
 Melon Tasting is a web application that allows users to create and account and make reservations at Melon Tasting. 
 
-Melon Tasting offers coverage 24/7/365 (including weekends and holidays) but due to the current CDC guidlines and regulations at this time only 1 user can book an appointment on a given day and time. 			
+Melon Tasting offers coverage 24/7/365 (including weekends and holidays) but due to the current CDC guidlines and regulations at this time only 1 user can book an reservation on a given day and time. 			
 
 Features:
 
 - Users can create an account using their email address, username and unique password. 
 - Registered users once logged in can reserve a date and time they would like to Melon Taste. 
-- If the preffered date and time are already booked the user will be prompted to select a new date and time to reserve. 
+- If the preferred date and time are already booked the user will be prompted to select a new date and time to reserve. 
 - Users also have the ability to view all of their past and pending reservations.
 
 Technologies and Stack
@@ -21,7 +21,7 @@ Technologies and Stack
 Backend - Python, Flask, Jinja, SQLAlchemy, PostgreSQL and Faker
 Frontend - HTML and CSS
 
-Set-Up and Install
+Set-Up and Install:
 
 1) Install VS code
 2) Install Python3
