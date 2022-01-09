@@ -4,7 +4,7 @@ Melon Tasting Reservation Scheduler
 							
 Project Summary:
 
-Melon Tasting is a web application that allows users to create and account and make reservations at Melon Tasting. 
+Melon Tasting is a web application that allows users to create an account and make reservations at Melon Tasting. 
 
 Melon Tasting offers coverage 24/7/365 (including weekends and holidays) but due to the current CDC guidlines and regulations at this time only 1 user can book an reservation on a given day and time. 			
 
@@ -44,10 +44,6 @@ Feel free to add any extra features, validations, or error handling if you have 
 Submission						
 Please push your code to Github (can be a public repository). To submit, you can post a link to the finished Github repository in your personal Discord channel.		
 In addition to your source code, README, and dependencies files (like requirements.txt or package.json), you may include other files like helper scripts or unit tests. However, these additional files are NOT required.					
-README
-Please include a README with anything you would like us to know (why you chose the technologies used, how you structured your database, any trade offs you made and why, any additional pieces you added, etc.)
-
-The README does not need to be exhaustive or long – we are more interested to learn about your decision making process and anything interesting you learned or want to highlight.
 
 Deployment
 You should deploy your finished site and send us a link.
