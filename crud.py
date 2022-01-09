@@ -1,10 +1,10 @@
 """Crud File"""
 
-from model import db, User, Reservations, connect_to_db
+from model import db, User, Reservation, connect_to_db
 from datetime import date, time, datetime 
 
 
-""""User Functions""""
+"""User Functions"""
 
 def create_user(fname, lname, user_name, email, password):
     """Create new user"""

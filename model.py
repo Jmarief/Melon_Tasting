@@ -1,6 +1,6 @@
 """Models for melon reservations"""
 
-from flask_sqlaclhemy import SQLAlchmy
+from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
@@ -23,7 +23,7 @@ class User(db.Model):
         return f"<User user_id={self.user_id} email={self.email} user_name={self.user_name}>"
 
 
-class Reservation(db.Modle):
+class Reservation(db.Model):
     """Create Reservations for Users"""
 
     __tablename__ = "reservation"
@@ -39,7 +39,8 @@ class Reservation(db.Modle):
         return f"<res_id={self.res_id} user={self.user_id} reserve_date={self.reserve_date}>"
 
 
-def connect_to_db(flask_app, db_uri='postgresql:///reservations', echo=False):    flask_app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
+def connect_to_db(flask_app, db_uri='postgresql:///reservations', echo=False):    
+    flask_app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
     flask_app.config['SQLALCHEMY_ECHO'] = echo
     flask_app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     

@@ -1,5 +1,4 @@
-# Melon_Tasting
-Melon Tasting Reservation App
+# Melon Tasting Reservation App
 
 Melon Tasting Reservation Scheduler
 							
@@ -16,7 +15,7 @@ Features:
 - If the preferred date and time are already booked the user will be prompted to select a new date and time to reserve. 
 - Users also have the ability to view all of their past and pending reservations.
 
-Technologies and Stack
+Technologies and Stack:
 
 Backend - Python, Flask, Jinja, SQLAlchemy, PostgreSQL and Faker
 Frontend - HTML and CSS
@@ -30,10 +29,8 @@ Set-Up and Install:
 
 Clone GitHub Repository 
 
-
-
 						
-
+INSTRUCTIONS: 
 Details
 We are intentionally not dictating what technical requirements you should use. You will need some kind of database (to persist the user and appointment information), a backend server, and frontend.
 If you are familiar with a date library, such as Python's datetime or Node/Express's moment or date-fns , feel free to use that. You can assume all timestamps are in the same timezone (no timezone handling required).
